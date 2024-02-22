@@ -11,9 +11,10 @@ Telas grandes: acima de 1200px */
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-
+    
     section#login{
         width: 80vw;
+        height: 32vh;
     }
     
     section#login > div#img{
@@ -34,6 +35,7 @@ Telas grandes: acima de 1200px */
 
     section#login{
         width: 950px;
+        height: 40vh;
     }
 
     section#login > div#img{
@@ -50,6 +52,7 @@ Telas grandes: acima de 1200px */
         font-size: 2em;
     }
     div#form p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin-bottom: 10px;
     }
 }
