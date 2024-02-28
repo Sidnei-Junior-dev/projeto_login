@@ -20,14 +20,13 @@ body,html{
 main {
     width: 100vw;
     height: 100vh;
-    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
     width: 252px;
     height: 500px;
     overflow: hidden;
@@ -35,7 +34,6 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
 
-    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
